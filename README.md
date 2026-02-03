@@ -89,8 +89,3 @@ src/
 ├── Context.jsx           # Central state storage for cart items
 │
 └── App.jsx               # Root component & routing
-
-### 📈 Future Enhancements
-- Admin Dashboard: Jahan orders ka live track rakha ja sakay.
-- Payment Gateway: Stripe ya PayPal ki integration.
-- User Authentication: Firebase ya Auth0 ke zariye login system.
