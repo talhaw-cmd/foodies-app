@@ -68,6 +68,29 @@ Yeh system real production-level email workflows ko represent karta hai.
 
 Application ki speed aur smooth experience ensure karne ke liye multiple optimizations apply ki gayi hain:
 
-- **Lazy Loading Images**
-  ```html
-  loading="lazy"
+- **Lazy Loading**  
+  Images ko `loading="lazy"` attribute ke saath set kiya gaya hai taake browser sirf wahi images load kare jo screen par nazar aa rahi hain.
+
+- **Local Storage Sync**  
+  Cart data ko LocalStorage mein persist kiya gaya hai, magar optimization ke saath taake memory par unnecessary bojh na paray.
+
+---
+
+### 🛠️ Project Structure
+
+```text
+src/
+│
+├── components/
+│   ├── Navbar.jsx        # Global navigation aur dynamic cart counter
+│   ├── Order.jsx         # Checkout form aur EmailJS integration logic
+│   ├── NotFound.jsx      # Branded 404 error page
+│
+├── Context.jsx           # Central state storage for cart items
+│
+└── App.jsx               # Root component & routing
+
+### 📈 Future Enhancements
+- Admin Dashboard: Jahan orders ka live track rakha ja sakay.
+- Payment Gateway: Stripe ya PayPal ki integration.
+- User Authentication: Firebase ya Auth0 ke zariye login system.
