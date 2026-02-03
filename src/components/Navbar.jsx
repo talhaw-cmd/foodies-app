@@ -76,15 +76,17 @@ const Navbar = () => {
             </Link>
           ))}
 
-
-          <span className=''>{cart.length}</span>
+          <div className='flex items-center'>
+            <span className='absolute z-10 text-sm bg-[#ed0b5e] text-white rounded-2xl px-2 mt-[-15px] ml-[15px]'>{cart.length}</span>
             <Link
               onClick={() => setIsOpen(false)} // Link click hone par menu band ho jaye
-              className='text-gray-700 font-semibold text-xl hover:text-[#ed0b5e]'
+              className='bi bi-bag-fill text-xl text-gray-600 font-medium transition-all duration-200 hover:text-[#ed0b5e]'
               to={"/cart"}
             >
-              Cart
+              
             </Link>
+          </div>
+
           <Link 
             onClick={() => setIsOpen(false)}
             className='bg-[#ed0b5e] px-10 py-3 text-white font-bold rounded-full shadow-lg shadow-pink-100' 
