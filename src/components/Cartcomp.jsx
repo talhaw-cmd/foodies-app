@@ -55,7 +55,7 @@ const Cartcomp = () => {
                     </div>
 
                     <div className='flex items-center gap-6'>
-                      <h2 className='text-xl font-black text-gray-900'>${item.price}</h2>
+                      <h2 className='text-xl font-black text-gray-900'>Rs: {item.price}</h2>
                       <button 
                         onClick={() => { del(index) }} 
                         className='bg-gray-50 text-gray-400 p-3 rounded-full hover:bg-red-50 hover:text-red-500 transition-all cursor-pointer'
@@ -82,16 +82,16 @@ const Cartcomp = () => {
             <div className='flex flex-col gap-4 mb-8'>
               <div className='flex justify-between text-gray-400'>
                 <span>Subtotal</span>
-                <span className='text-white font-bold'>${subtotal.toFixed(2)}</span>
+                <span className='text-white font-bold'>Rs: {subtotal.toFixed(2)}</span>
               </div>
               <div className='flex justify-between text-gray-400'>
                 <span>Tax (5%)</span>
-                <span className='text-white font-bold'>${tax.toFixed(2)}</span>
+                <span className='text-white font-bold'>Rs: {tax.toFixed(2)}</span>
               </div>
               <div className='h-[1px] bg-gray-800 my-2'></div>
               <div className='flex justify-between text-xl font-extrabold italic'>
                 <span>Total</span>
-                <span className='text-[#ed0b5e]'>${total.toFixed(2)}</span>
+                <span className='text-[#ed0b5e]'>Rs: {total.toFixed(2)}</span>
               </div>
             </div>
 
