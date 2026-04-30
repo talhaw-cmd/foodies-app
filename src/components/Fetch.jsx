@@ -108,7 +108,7 @@ const Fetch = () => {
                                 <div className='p-6 flex flex-col gap-3'>
                                     <div className='flex justify-between items-start'>
                                         <h1 className='text-xl font-bold text-gray-800 leading-tight'>{item.name}</h1>
-                                        <p className='text-[#ed0b5e] font-black text-xl'>${item.price}</p>
+                                        <p className='text-[#ed0b5e] font-black text-xl'>Rs: {item.price}</p>
                                     </div>
                                     <h2 className='text-gray-400 font-medium uppercase tracking-widest text-xs'>{item.category}</h2>
                                     

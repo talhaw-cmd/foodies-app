@@ -2,9 +2,9 @@ import React from 'react'
 
 const Popular = () => {
     const cards = [
-        {index: 0, Name: "Margherita Pizza", Price: "$12.99", image: "https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg"},
-        {index: 1, Name: "Spaghetti Bolognese", Price: "$12.99", image: "https://images.pexels.com/photos/30392939/pexels-photo-30392939.jpeg"},
-        {index: 2, Name: "Grilled Chicken", Price: "$22.99", image: "https://images.pexels.com/photos/34138804/pexels-photo-34138804.jpeg"},
+        {index: 0, Name: "Margherita Pizza", Price: "Rs: 1299.99", image: "https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg"},
+        {index: 1, Name: "Spaghetti Bolognese", Price: "Rs: 699.99", image: "https://images.pexels.com/photos/30392939/pexels-photo-30392939.jpeg"},
+        {index: 2, Name: "Grilled Chicken", Price: "Rs: 399.99", image: "https://images.pexels.com/photos/34138804/pexels-photo-34138804.jpeg"},
     ]
 
   return (
