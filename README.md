@@ -10,7 +10,7 @@ It simulates a real-world food ordering experience where users can browse items,
 
 ## 🚀 Live Demo
 
-🔗 Coming Soon
+🔗 https://foodies-app-self-eight.vercel.app/
 
 ---
 
